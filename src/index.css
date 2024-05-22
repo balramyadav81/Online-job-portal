@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+  body{
+  background: blueviolet;
+  }
+}
+#my-class:hover{
+  background-color:red;
+}
+#apply:hover {
+  background-color:chartreuse;
+}
+#card:hover {
+  color: black;
+}
+#skii:hover{
+  background-color:yellow;
+}
